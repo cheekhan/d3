@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "cheekhan",
   description: "前端调试侠",
+  base: '/d3/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
