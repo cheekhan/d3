@@ -1,0 +1,13 @@
+image: node:20.5.0
+pages:
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - pnpm install 
+    - pnpm run docs:build 
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
